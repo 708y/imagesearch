@@ -1,12 +1,26 @@
 {
   "name": "imagesearch",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/708y/imagesearch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/708y/imagesearch/issues"
+  },
+  "homepage": "https://github.com/708y/imagesearch#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "https": "^1.0.0",
+    "mongodb": "^2.2.9"
+  },
+  "devDependencies": {},
+  "description": ""
 }
